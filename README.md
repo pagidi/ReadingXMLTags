@@ -28,7 +28,7 @@ vendor : Viaduct Steakhouse
 description : development team’s project end celebration dinner
 date :Tuesday 27 April 2017
 
-# Using regex i could able to give the solution, but still there are some improvements needs to incorporate
+# improvements yet to incorporate
     1. Validation e.g if there is no end tag reject entire input
     
 # Key part of the code

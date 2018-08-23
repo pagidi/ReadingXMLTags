@@ -39,4 +39,4 @@ To make things easier to test follow the below link once you run api by pressing
 
 http://localhost:54900/api/parser?text=yourcontentcangohere<value>abc</value>andsomeothercontentappendedhere..
 
-# Created a sample console as well app by adding xml content in the main method
+# Created a sample console app as well by adding xml content in the main method

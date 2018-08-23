@@ -61,7 +61,9 @@ Note: To Open the solution we need Visualstudio 2015(update 3)
 
 we can use postman to test the api
 
-To make things easier to test follow the below link once you run api by pressing F5
+To make things easier I used httpget and easy to test, follow the below link once you run api by pressing F5.
+
+HttpPut is preffered method, to levereage webapi feature FromBody so that we can send huge volume of data in post.
 
 http://localhost:54900/api/parser?text=yourcontentcangohere<value>abc</value>andsomeothercontentappendedhere..
 

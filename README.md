@@ -29,7 +29,8 @@ description : development team’s project end celebration dinner
 date :Tuesday 27 April 2017
 
 # improvements yet to incorporate
-    1. Validation e.g if there is no end tag reject entire input
+    1. Input Validations 
+    e.g if there is no end tag found then input should be rejected
     
 # Key part of the code
         protected internal static string GetMatch(string text)

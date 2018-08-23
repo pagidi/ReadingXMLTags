@@ -1,4 +1,4 @@
-# ReadingXMLTags
+# ReadingXMLTags from a string content
 
 The objective of this POC is to identify XML elements from a string content and return the values.
 e.g:  Customer sends information in emails as below. We have to figure out the xml elements and return as response.

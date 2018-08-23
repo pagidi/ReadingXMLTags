@@ -28,6 +28,28 @@ vendor : Viaduct Steakhouse
 description : development team’s project end celebration dinner
 date :Tuesday 27 April 2017
 
+# Using regex i could able to give the solution, but still there are some improvements needs to incorporate
+    1. Validation e.g if there is no end tag reject entire input
+    
+# Key part of the code
+        protected internal static string GetMatch(string text)
+        {
+            Regex RegexTagsPattern = new Regex(@"<[^>]+>[^<]*</[^>]+>");
+            StringBuilder output = new StringBuilder();
+
+            bool matchFound = false;
+            foreach (var item in RegexTagsPattern.Matches(text))
+            {
+                matchFound = true;
+                output.Append(item);
+            }
+
+            if (matchFound)
+                return $"<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><root>{output.ToString()}</root>";
+            else
+                return string.Empty;
+        }
+
 
 # Created a sample api to read the xml content which is part of string content
 
